@@ -31,10 +31,6 @@ defmodule WebPushElixir.MixProject do
       {:ex_doc, "~> 0.27", only: :dev, runtime: false},
       {:excoveralls, "~> 0.10", only: :test},
       {:jose, "~> 1.11"},
-      {:jason, "~> 1.4"},
-      {:plug, "~> 1.14"},
-      {:plug_cowboy, "~> 2.0"},
-      {:httpoison, "~> 2.0"}
     ]
   end
 end
